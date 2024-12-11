@@ -79,6 +79,6 @@ function parse_conditional_input(): number[][] {
 
 // Learn more at https://docs.deno.com/runtime/manual/examples/module_metadata#concepts
 if (import.meta.main) {
-  // console.log(partOne());
-  console.log(partTwo());
+  console.log("Total mul operation sum:", partOne());
+  console.log("Total mul operations sum with conditionals:", partTwo());
 }
